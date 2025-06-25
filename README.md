@@ -16,13 +16,9 @@ Welcome to the **Hannibal Travel** landing page! This responsive website showcas
 
 [View Live Site](https://django-unchained-01.github.io/Travel_Agency_Landing_Page/)
 
-> Replace the above link with your actual deployment URL (e.g., GitHub Pages, Vercel, Netlify, etc.).
-
 ## Screenshot
 
 ![Hannibal Travel Landing Page Screenshot](screenshot.png)
-
-> Save a screenshot of your site as `screenshot.png` in the project root for it to appear here.
 
 ## Getting Started
 
