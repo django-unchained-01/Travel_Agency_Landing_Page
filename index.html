@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannibal Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hannibal Travel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tours">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <div>
+                <h1 class="display-4">Discover Your Next Adventure</h1>
+                <p class="lead">Explore the world with our expertly crafted tours</p>
+                <a href="#destinations" class="btn btn-primary btn-lg mt-3">View Destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Popular Destinations</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card destination-card">
+                        <img src="https://images.unsplash.com/photo-1586395732561-bf053f78a8f2?auto=format&fit=crop&w=800&h=600&q=80" class="card-img-top" alt="Banff">
+                        <div class="card-body">
+                            <h5 class="card-title">Banff, Canada</h5>
+                            <p class="card-text">Marvel at turquoise lakes and majestic mountains in the heart of the Canadian Rockies.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card destination-card">
+                        <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=800&h=600&q=80" class="card-img-top" alt="Santorini">
+                        <div class="card-body">
+                            <h5 class="card-title">Santorini, Greece</h5>
+                            <p class="card-text">Enjoy breathtaking sunsets and whitewashed villages overlooking the Aegean Sea.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card destination-card">
+                        <img src="https://images.unsplash.com/photo-1580060860978-d479ebf95a53?auto=format&fit=crop&w=800&h=600&q=80" class="card-img-top" alt="Cape Town">
+                        <div class="card-body">
+                            <h5 class="card-title">Cape Town, South Africa</h5>
+                            <p class="card-text">Experience vibrant culture, stunning beaches, and the iconic Table Mountain.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Tour Packages</h2>
+            <div class="accordion" id="toursAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            European Explorer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <p>14-day tour through Paris, Rome, and Barcelona. Includes flights, accommodations, and guided tours of major attractions.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            Asian Adventure
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <p>21-day journey through Tokyo, Seoul, and Bangkok. Experience diverse cultures, cuisines, and landscapes.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            American Road Trip
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <p>30-day coast-to-coast adventure from New York to Los Angeles. Includes car rental and curated stops at national parks.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="form-label">Destination of Interest</label>
+                            <select class="form-select" id="destination">
+                                <option selected>Choose...</option>
+                                <option>Europe</option>
+                                <option>Asia</option>
+                                <option>North America</option>
+                                <option>South America</option>
+                                <option>Africa</option>
+                                <option>Australia</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Hannibal Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

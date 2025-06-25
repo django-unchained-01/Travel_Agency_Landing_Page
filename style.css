@@ -1,0 +1,39 @@
+.hero-section {
+            background: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1421&q=80') no-repeat center center;
+            background-size: cover;
+            height: 500px;
+            position: relative;
+            color: white;
+        }
+        .hero-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .destination-card {
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+        .destination-card:hover {
+            transform: translateY(-5px);
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #f8f9fa;
+            color: #0d6efd;
+        }
+        .contact-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
